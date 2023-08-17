@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RB Barbearia</title>
+    <meta name="description" content="A melhor barbearia de São Sebastião. Barba, cabelo e bigode é aqui!">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts/navbar-change-color.js" defer></script>
+</head>
+
+<body>
+    <nav class="position-fixed w-100 navbar navbar-expand-md navbar-dark pt-3 pb-3 ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img width="50" src="assets/rayssa-logo.png"
+                    alt="Logo Rayssa Barbearia"></a>
+            <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-md-flex justify-content-end" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0 gap-3">
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link text-warning fw-bold" href="#" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link text-white fw-bold" href="#">Sobre nós</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link text-white fw-bold" href="#">Serviço</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link text-white fw-bold" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <button class="btn btn-warning my-2 my-sm-0 fw-bold pe-5 ps-5 p-3" type="submit">QUERO
+                            AGENDAR</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="top d-flex align-items-center">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xl-4 d-xl-flex d-none align-items-center">
+                    <img class="img-fluid" src="assets/rayssa-logo.png" alt="Rayssa cortando cabelo">
+                </div>
+                <div class="justify-content-end col-xl-8 d-flex align-items-center pt-xl-0 mt-xl-0   pb-5 pb-xl-0">
+                    <div class="d-flex flex-column pb-5 align-items-end">
+                        <div class="d-flex-flex-column">
+                            <h1 class="display-1 fw-bold text-white text-end">A melhor barbearia<br>de São Sebastião
+                            </h1>
+                            <p class="fs-5 text-secondary fw-normal text-end">
+                                A barbearia onde você entra feio e sai de cabelo cortado! Temos
+                                o<br class="d-md-block d-none"> melhor corte de cabelo, mas não fazemos milagre!
+                            </p>
+                        </div>
+                        <button class="btn btn-warning fw-bold mw-400">QUERO AGENDAR NA MELHOR DA REGIÃO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="text-center">
+            <span class="text-warning fw-bold bg-black p-2">Nossos Serviços</span>
+            <h2 class="fw-bold display-5 text-black">Explore nossos <br> serviços</h2>
+        </div>
+
+        <div class="row mt-5 ">
+            <div class="col-xl-6 d-flex justify-content-center">
+                <img class="img-fluid" src="assets/foto do corte.png" alt="Modelo de corte">
+            </div>
+            <div class="col-xl-6 d-flex justify-content-center mt-5 mt-xl-0">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="bg-white d-flex gap-2">
+                                <p class=" fs-5">Barba</p>
+                            </div>
+                            <div class="bg-white d-flex gap-2">
+                                <p class=" fs-5">Cabelo</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="bg-white d-flex gap-2">
+                                <p class=" fs-5">Bigode</p>
+                            </div>
+                            <div class="bg-white d-flex gap-2">
+                                <p class=" fs-5">Sobrancelha</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-warning fw-bold ps-5 pe-5 p-2">QUERO AGENDAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
