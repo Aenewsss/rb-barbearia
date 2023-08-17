@@ -9,7 +9,7 @@ body {
 }
 
 .top {
-    background: url("assets/bg-top.png") no-repeat center ;
+    background: url("assets/bg-top.png") no-repeat center;
     background-size: cover;
     height: 100vh;
 }
@@ -23,16 +23,48 @@ body {
     color: var(--yellow) !important;
 }
 
+.bg-warning {
+    background-color: var(--yellow) !important;
+}
+
 .mw-300 {
     max-width: 300px;
 }
 
-.mw-400{
+.mw-400 {
     max-width: 400px;
 }
 
-@media screen and (max-width: 768px){
-    .navbar{
+.bottom-m10 {
+    bottom: -10px;
+}
+
+.shadow-text-black {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.71);
+    ;
+}
+
+.navbar{
+    z-index: 1;
+}
+
+.after-line {
+    position: relative;
+}
+
+.after-line::after {
+    content: '';
+    position: absolute;
+    width: 165px;
+    height: 6px;
+    background: var(--yellow);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
         background-color: black !important;
     }
 }
