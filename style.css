@@ -1,6 +1,7 @@
 :root {
     --yellow: #F9E107;
     --white-f6: #F6F6F6;
+    --gray: #B8B8B8
 }
 
 body {
@@ -22,6 +23,19 @@ body {
 .contact {
     background: url("assets/bg-contact.png") no-repeat center;
     background-size: cover;
+    background-position: bottom;
+}
+
+.text-gray {
+    color: var(--gray);
+}
+
+.lh-94{
+    line-height: 94%;
+}
+
+.pb-6rem {
+    padding-bottom: 6rem;
 }
 
 .btn-warning {
@@ -55,7 +69,7 @@ body {
 }
 
 .navbar{
-    z-index: 1;
+    z-index: 2;
 }
 
 .after-line {
