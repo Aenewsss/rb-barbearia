@@ -72,6 +72,27 @@ body {
     z-index: 2;
 }
 
+.scale{
+    transition: .6s ease;
+}
+
+.scale:hover{
+    transform: scale(1.1);
+}
+
+.scale:hover + .text-service {
+    opacity: 1;
+}
+
+.text-service{
+    bottom: 0;
+    left: 50%;
+    z-index: 1;
+    opacity: 0;
+    transition: .6s ease;
+    transform: translateX(-50%);
+}
+
 .after-line {
     position: relative;
 }
